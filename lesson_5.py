@@ -55,21 +55,22 @@
 
 
 # Making Anagrams - https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
+#
 # a = "cde"
-# b = "dcf"
+# b = "dcaa"
 #
 # def anagrams(a, b):
 #     counter = 0
 #     for elem in a:
-#         if elem not in b:
+#         if elem not in set(b):
 #             counter += 1
 #     for elem in b:
-#         if elem not in a:
+#         if elem not in set(a):
 #             counter += 1
 #     return counter
 #
 # print(anagrams(a, b))
-
+#
 # Find Words Formed by Characters - https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/
 # def words_by_char(word, chars):
 #     i = 0
