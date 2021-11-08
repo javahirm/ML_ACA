@@ -21,7 +21,3 @@ else:
             print(parts[0])
         else:
             print("undefined")
-
-
-
-
